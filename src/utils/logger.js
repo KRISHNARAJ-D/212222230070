@@ -17,6 +17,6 @@ export async function logEvent({ level = 'info', message = '', stack = 'frontend
       })
     });
   } catch (error) {
-    console.log('Logger error:', error);
+
   }
 }
